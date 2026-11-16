@@ -1,0 +1,62 @@
+Mahdi Moghaddami
++1 (248) 270-5982 | me@mahdimoghaddami.com | Rochester Hills, MI
+mahdimoghaddami.com | linkedin.com/in/mahdimoghaddami | github.com/mahdimoghaddami
+
+EDUCATION
+Oakland University
+PhD in Computer Science and Informatics (GPA: 3.97)
+Iran University of Science and Technology
+BSc in Computer Engineering (GPA: 3.68)
+
+Rochester Hills, MI
+Dec 2027 (expected)
+Tehran, Iran
+Feb 2022
+
+EXPERIENCE
+Graduate Researcher, Oakland University
+May 2023 – Present
+• Developed and trained a graph neural network (GNN) combined with different recurrent neural networks (RNN,
+LSTM, GRU) for conversion detection on cognitive impairment using PyTorch, improving accuracy by 26%.
+• Implemented a Transformer-based model to predict a subject’s diagnosis at their next clinical visit using PyTorch,
+achieving 85% accuracy on 10-fold cross-validation.
+• Led an NSF-funded (REU) team of undergraduate researchers in designing and implementing an Informer model for
+short-term time-series forecasting in financial markets.
+AI/Machine Learning Engineer, Dadmatech Corp.
+Jun 2021 – Feb 2022
+• Processed 250 GB of multi-modal data using Python and a multi-GPU HPC cluster to build production-ready
+classification systems. Deployed as a container.
+• Implemented machine learning classification algorithms using Scikit-learn and PyTorch to classify bot/human accounts
+on Twitter and Instagram, achieving 76% accuracy.
+NLP Lab Member, Iran University of Science and Technology
+Oct 2019 – Aug 2020
+• Fine-tuned various large language models (BERT, GPT) for stance classification to improve content moderation and
+user safety using Keras (TensorFlow backend), achieving an F1-score of 82%.
+
+SELECTED PUBLICATIONS
+• M. Moghaddami, et al., “Graph Neural Networks Combined with Recurrent Architectures for Cognitive Impairment
+Progression Detection”, SPIE Medical Imaging, 2026.
+• M. Moghaddami, et al., “Transformer-Based Multi-Visit Diagnosis Prediction via Clinical Trajectory Modeling”,
+Conference on Health, Inference, and Learning (CHIL), 2025.
+
+SELECTED PROJECTS
+Edge AI: High-Ratio Model Compression, Deep Learning and Applications
+Fall 2024
+• Built a CNN from scratch (all layers, optimizer, and loss function).
+• Reduced CNN model size by 92% using pruning and knowledge distillation in PyTorch, with only 3% accuracy loss.
+Autonomous Navigation: Drone Control, Machine Learning
+Winter 2024
+• Developed a real-time ResNet-based 3D Path Planning and Perception pipeline for autonomous drone navigation,
+enabling continuous trajectory and speed optimization based on camera feeds.
+Foundation Models: Text Summarization, Natural Language Processing
+Fall 2023
+• Architected and deployed an end-to-end text summarization tool using BART-base and Longformer-LED; managed the
+full lifecycle from model selection to public deployment on Hugging Face Spaces.
+
+SKILLS
+Languages: Python, SQL, Rust, C#, C++, JavaScript
+Frameworks & Libraries: PyTorch, Scikit-learn, Pandas, Polars, NumPy, Spark, Matplotlib, Seaborn, Keras, Hugging
+Face Transformers, SciPy
+Tools & Infrastructure: Git, Docker, GCP, Linux, uv, Ruff, Conda
+
+
