@@ -1,4 +1,4 @@
-#import "../CV/theme.typ": *;
+#import "theme.typ": *;
 
 #show: apply-theme.with(text-size: 9.5pt)
 
