@@ -1,6 +1,6 @@
 #let name-font-size = 22pt
 #let margin-size = 42pt
-#let muted = rgb("555555")
+#let muted = rgb("424242")
 
 #let heading-font = "Libertinus Sans"
 #let heading-font-size = 11.5pt
@@ -102,7 +102,11 @@
 ]
 
 // Small bracketed link tag, e.g. [Code] or [Demo].
-#let tag(url, label) = link(url, text(font: heading-font, size: subtitle-font-size, fill: accent-color)[\[#label\]])
+#let tag(url, label) = link(url, text(
+  font: heading-font,
+  size: subtitle-font-size,
+  fill: accent-color,
+)[\[#label\]])
 
 // Course names and teaching terms share one aligned grid.
 #let course-list(rows) = {
