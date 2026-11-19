@@ -66,13 +66,16 @@ graph neural networks, natural language processing, agentic AI systems.
   location: [Rochester Hills, MI],
 )
 
-- Engineered a distributed, containerized data curation and preprocessing pipeline on a Slurm HPC cluster, processing 5+ TB of rs-fMRI and structural (T1-weighted) neuroimaging data across 3,218 time points from 1,322 subjects with custom automated QC, slice-timing recovery, and FreeSurfer feature extraction for downstream deep learning models. #tag("https://github.com/mahdimoghaddami/gnn-connectivity-matrix", "Code")
+- Engineered a distributed, containerized Slurm HPC pipeline for curation, QC, slice-timing recovery, and FreeSurfer feature extraction of 5+ TB of resting-state fMRI (rs-fMRI) and T1-weighted neuroimaging data (3,218 time points, 1,322 subjects) for downstream deep learning models. #tag("https://github.com/mahdimoghaddami/gnn-connectivity-matrix", "Code")
 
-- Architected History-Aware Connectome Learning (HACL) in PyTorch, a multimodal gated state-change GNN (WeightedGraphSAGE, TopK pooling) and dual-branch Transformer framework for longitudinal diffusion MRI connectomes and clinical histories with late FiLM conditioning, logit-adjusted loss, and classifier retraining; validated across a 19-configuration ablation study and lifted 5-fold participant-grouped performance from 70.9% mean single-seed balanced accuracy (0.807 AUC) to 80.3% balanced accuracy, 0.864 ROC-AUC, and 88.1% accuracy via temperature-scaled log-odds ensembling across 340 windows from 122 ADNI subjects (CVPR 2027).
+- Architected History-Aware Connectome Learning (HACL) in PyTorch, a multimodal GNN-Transformer for longitudinal diffusion MRI and clinical histories; a 19-configuration ablation and log-odds ensembling raised 5-fold participant-grouped balanced accuracy from 70.9% to 80.3% (0.864 ROC-AUC) across 340 windows from 122 ADNI subjects (CVPR 2027 - under review). #tag("https://github.com/mahdimoghaddami/dti-connectivity", "Code")
 
-- Designed a history-aware spatio-temporal graph neural network with recurrent encoders for resting-state functional MRI (rs-fMRI) connectivity data from 303 ADNI subjects; achieved 82.9% overall accuracy and 68.8% accuracy on cognitively normal to mild cognitive impairment conversion (SPIE 2026).
+- Designed a history-aware spatio-temporal GNN with recurrent encoders for rs-fMRI connectivity data from 303 ADNI subjects; achieved 82.9% overall accuracy and 68.8% accuracy on cognitively normal to mild cognitive impairment conversion (SPIE 2026). #tag(
+    "https://github.com/austinttoma/STGNN",
+    "Code",
+  )
 
-- Built a Transformer to predict next-visit diagnosis from longitudinal TADPOLE/ADNI records from 1,627 subjects, accommodating missing visits and features; achieved 82.4% accuracy, 87.4% balanced accuracy, and 0.920 mean AUC in 10-fold cross-validation (CHIL 2025).
+- Developed a Transformer for next-visit diagnosis from incomplete longitudinal histories of 1,627 participants; evaluated against recurrent baselines and achieved 87.4% balanced accuracy and and 92% mean AUC in 10-fold cross-validation (CHIL 2025). #tag("https://github.com/mahdimoghaddami/transformer-visit-sequences", "Code")
 
 
 #v(paragraph-spacing * 0.5)
@@ -84,9 +87,7 @@ graph neural networks, natural language processing, agentic AI systems.
   location: [Rochester Hills, MI],
 )
 
-- Supervised two undergraduate researchers on short-term financial time-series forecasting with an Informer model; guided data collection, model design, and evaluation.
-
-- Co-authored a research report and a poster presented at Michigan State University.
+- Supervised two undergraduate researchers on short-term financial time-series forecasting with an Informer model, guiding data collection, model design, and evaluation; co-authored a research report and a poster presented at Michigan State University.
 
 #v(paragraph-spacing * 0.5)
 
@@ -97,7 +98,7 @@ graph neural networks, natural language processing, agentic AI systems.
   location: [Tehran, Iran],
 )
 
-- Built end-to-end 4-class Persian stance detection models (Claim-Headline and Claim-Article) for fake news verification using TensorFlow/Keras and Hugging Face Transformers, migrating from static-embedding StackLSTM and Multilingual BERT baselines to fine-tuned ParsBERT to raise 80/20 validation accuracy from 62% to 81.3% (headline-claim, 2,029 pairs) and 72% to 83.8% (article-claim, 1,997 pairs).
+- Built 4-class Persian stance detection models (Claim-Headline and Claim-Article) for fake news verification in TensorFlow/Keras and Hugging Face Transformers; compared fine-tuned ParsBERT against StackLSTM, Multilingual BERT, scikit-learn (AdaBoost, random forests, MLPs), and PyTorch LSTM baselines, raising 80/20 validation accuracy from 62% to 81.3% (2,029 headline pairs) and 72% to 83.8% (1,997 article pairs).
 
 // Publications and professional experience begin on a fresh page.
 #pagebreak()
@@ -110,10 +111,7 @@ graph neural networks, natural language processing, agentic AI systems.
 - #block(breakable: false)[*Moghaddami, M.*, Siadat, M.-R., Toma, A. T., Laming, C. P., and Fu, H. (2026).
     Predicting Alzheimer's disease progression using rs-fMRI and a history-aware graph neural network.
     _Medical Imaging 2026: Computer-Aided Diagnosis_, Proceedings of SPIE, vol. 13926, 1392604.
-    #tag("https://doi.org/10.1117/12.3088066", "DOI") #tag("https://arxiv.org/abs/2604.06469", "arXiv") #tag(
-      "https://github.com/austinttoma/STGNN",
-      "Code",
-    )]
+    #tag("https://doi.org/10.1117/12.3088066", "DOI") #tag("https://arxiv.org/abs/2604.06469", "arXiv")]
 
 - #block(breakable: false)[*Moghaddami, M.*, Schubring, C., and Siadat, M. (2025).
     Transformer model for Alzheimer's disease progression prediction using longitudinal visit sequences.
@@ -121,7 +119,7 @@ graph neural networks, natural language processing, agentic AI systems.
     #tag("https://proceedings.mlr.press/v287/moghaddami25a.html", "PMLR") #tag(
       "https://arxiv.org/abs/2507.03899",
       "arXiv",
-    ) #tag("https://github.com/mahdimoghaddami/ad-visit-sequences", "Code")]
+    )]
 
 #v(paragraph-spacing * 0.5)
 
@@ -130,7 +128,6 @@ graph neural networks, natural language processing, agentic AI systems.
     *Moghaddami, M.*, Piggott, B., and Siadat, M.-R. (2026).
     History-aware connectome learning for Alzheimer's disease progression prediction from longitudinal diffusion MRI.
     _Under review at the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2027)_.
-    #tag("https://github.com/mahdimoghaddami/dti-connectivity", "Code")
   ]
 
 #v(paragraph-spacing * 0.5)
@@ -161,9 +158,9 @@ graph neural networks, natural language processing, agentic AI systems.
   subtitle: [Dadmatech Corp.],
   location: [Tehran, Iran],
 )
-- Boosted Persian fake-news stance detection F1 from 0.62/0.71 to 0.86/0.82 (headline/article-to-claim) by designing a ParsBERT model with a custom Keras categorical Focal Loss, handcrafted feature fusion, and systematic preprocessing and class-imbalance (SMOTE/ADASYN) ablations; conducted ablation studies and hyperparameter grid searches across (#sym.alpha, #sym.gamma), optimizers, and sequence lengths.
+- Extended the ParsBERT stance-detection model to a 28% larger dataset, raising F1 from 0.62/0.71 to 0.86/0.82 (headline/article-to-claim) with a custom Keras categorical focal loss, handcrafted feature fusion, SMOTE/ADASYN class-imbalance ablations, and grid searches over (#sym.alpha, #sym.gamma), optimizers, and sequence lengths.
 
-- Architected cross-platform social-bot detection across 508 GB of raw data (10.1K Twitter, 7.7K Instagram accounts) using FastText embeddings, tsfresh time-series features, PyTorch/Keras multi-branch CNN-RNN networks, and GridSearch-tuned ensembles (0.77 Twitter F1; 91.8% Instagram accuracy), deploying inference via REST APIs; compared against scikit-learn baselines (AdaBoost, random forests, MLPs) and PyTorch LSTMs.
+- Architected cross-platform social-bot detection over 508 GB of raw data (10.1K Twitter, 7.7K Instagram accounts) using FastText embeddings, tsfresh time-series features, PyTorch/Keras multi-branch CNN-RNNs, and GridSearch-tuned ensembles (0.77 Twitter F1; 91.8% Instagram accuracy); deployed inference via REST APIs.
 
 #v(paragraph-spacing * 0.5)
 
@@ -210,11 +207,11 @@ graph neural networks, natural language processing, agentic AI systems.
 #entry(
   [Multi-Agent AI Coach for Student Stress Management #tag("https://github.com/mahdimoghaddami/agentic-student-life", "Code") #tag("https://github.com/mahdimoghaddami/agentic-student-life/blob/main/output/pdf/studentlife_coach_paper/studentlife_coach.pdf", "Report")],
   [Fall 2026],
-  subtitle: [Agentic AI, Oakland University | Team of two],
+  subtitle: [Agentic AI, Oakland University],
 )
 - Built a 5-role multi-agent LLM stress coach (Planner, Analyst, Writer, Critic, Memory Manager) in Python (aisuite, Pydantic, Gemini 3.6 Flash) on the StudentLife dataset, integrating 8 leak-free, time-bounded data/resource tools, 8 reusable coaching skills, planning, reflection, and persistent preference memory.
 
-- Ran a 9-configuration ablation study across 20 longitudinal cases (8 participants) with simulated goals and feedback, achieving 100% decision agreement (20/20) with manual human labeling, 4.81/5 mean quality across 16 sent messages from an independent GPT-5.4-mini judge, and 0.267 mean absolute difference against blind human ratings (1-5 scale).
+- Ran a 9-configuration ablation across 20 longitudinal cases (8 participants) with simulated goals and feedback: 100% decision agreement (20/20) with manual labels, 4.81/5 mean quality across 16 sent messages from an independent GPT-5.4-mini judge, and 0.267 mean absolute difference from blind human ratings (1-5 scale).
 
 
 #v(paragraph-spacing * 0.5)
@@ -248,9 +245,9 @@ graph neural networks, natural language processing, agentic AI systems.
   [Winter 2024],
   subtitle: [Machine Learning, Oakland University],
 )
-- Implemented and trained a lightweight 8-layer residual CNN (resnet8) in TensorFlow/Keras, on ~33.8k cross-domain car-driving and bicycle-mounted images to jointly predict steering angle and collision probability with dynamically scheduled loss weighting; achieved 95.3% collision accuracy (0.895 F1) and 0.181 steering RMSE.
+- Trained a lightweight 8-layer residual CNN (resnet8) in TensorFlow/Keras on \~33.8k cross-domain car-driving and bicycle-mounted images to jointly predict steering angle and collision probability with dynamically scheduled loss weighting; achieved 95.3% collision accuracy (0.895 F1) and 0.181 steering RMSE.
 
-- Engineered a low-latency ROS (Python/C++) closed-loop pipeline converting live 200×200 grayscale onboard camera frames from a Parrot Bebop drone into low-pass-filtered velocity and yaw commands, validating obstacle-avoidance predictions in indoor and outdoor live-stream tests.
+- Built a low-latency ROS (Python/C++) closed loop turning live 200$times$200 grayscale Parrot Bebop camera frames into low-pass-filtered velocity and yaw commands; validated obstacle avoidance in indoor and outdoor tests.
 
 // ---------------------------------------------------------------- Skills
 = Technical Skills
@@ -261,7 +258,7 @@ graph neural networks, natural language processing, agentic AI systems.
   row-gutter: paragraph-spacing,
   [*Machine Learning:*], [PyTorch, Hugging Face Transformers, scikit-learn, Keras, NLTK, Gensim],
   [*Data & Visualization:*], [NumPy, Pandas, Polars, SciPy, Matplotlib, Seaborn],
-  [*Programming:*], [Python, C\#, C++, Rust, Bash],
+  [*Programming:*], [Python, C\#, C++, Rust, Bash, SQL],
   [*Tools & Neuroimaging:*],
   [Linux, Git, Docker, HPC clusters, Slurm, Singularity/Apptainer, Conda, uv, Gradio, fMRIPrep, FreeSurfer],
 
