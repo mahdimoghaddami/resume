@@ -260,7 +260,7 @@ graph neural networks, natural language processing, agentic AI systems.
   [*Data & Visualization:*], [NumPy, Pandas, Polars, SciPy, Matplotlib, Seaborn],
   [*Programming:*], [Python, C\#, C++, Rust, Bash, SQL],
   [*Tools & Neuroimaging:*],
-  [Linux, Git, Docker, HPC clusters, Slurm, Singularity/Apptainer, Conda, uv, Gradio, fMRIPrep, FreeSurfer],
+  [Linux, Git, uv, Conda, HPC clusters, Slurm, Singularity/Apptainer, Docker, Gradio, fMRIPrep, FreeSurfer],
 
   [*LLM & Agents:*], [aisuite, Pydantic, agent orchestration, LLM-as-judge evaluation],
 )
