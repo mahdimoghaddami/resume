@@ -18,7 +18,7 @@
     font: heading-font,
     size: 9.5pt,
     fill: muted,
-  )[Ph.D. Candidate in Computer Science | Machine Learning and Applied AI]
+  )[Ph.D. Student in Computer Science | Machine Learning and Applied AI]
 
   #text(size: 9.5pt)[
     Rochester Hills, MI | +1 (248) 270-5982 |
@@ -33,8 +33,8 @@
 = Education
 #v(3pt)
 #entry(
-  [Oakland University],
-  [May 2023 #sym.dash.en Dec 2027 (expected)],
+  [Oakland University - _Expected Graduation: 05/28_],
+  [May 2023 #sym.dash.en May 2028 (expected)],
   subtitle: [Ph.D. in Computer Science and Informatics (M.Sc. en route, Apr 2026) | GPA: 3.97/4.00],
   location: [Rochester Hills, MI],
 )

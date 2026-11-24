@@ -27,15 +27,15 @@
 = Research Interests
 // #v(line-spacing)
 #v(paragraph-spacing)
-Machine learning for healthcare, longitudinal and multimodal disease progression modeling,
+Machine learning, computer vision, algorithms, longitudinal and multimodal progression modeling,
 graph neural networks, natural language processing, agentic AI systems.
 
 // ---------------------------------------------------------------- Education
 = Education
 #entry(
   [Oakland University],
-  [May 2023 #sym.dash.en Dec 2027 (expected)],
-  subtitle: [Ph.D. in Computer Science and Informatics | GPA: 3.97/4.00],
+  [May 2023 #sym.dash.en May 2028 (expected)],
+  subtitle: [Ph.D. in Computer Science and Informatics | GPA: 3.97/4.00 | Expected Graduation: 05/28],
   location: [Rochester Hills, MI],
 )
 
@@ -262,7 +262,7 @@ graph neural networks, natural language processing, agentic AI systems.
   [*Tools & Neuroimaging:*],
   [Linux, Git, uv, Conda, HPC clusters, Slurm, Singularity/Apptainer, Docker, Gradio, fMRIPrep, FreeSurfer],
 
-  [*LLM & Agents:*], [aisuite, Pydantic, agent orchestration, LLM-as-judge evaluation],
+  [*LLM & Agents:*], [aisuite, Pydantic, agent orchestration, LLM-as-judge evaluation, GCP, Google ADK],
 )
 
 // ---------------------------------------------------------------- Honors
